@@ -2,20 +2,20 @@
 // Files to cache
 var cacheName = 'swCache';
 var contentToCache = [
-  '/js/xhr.js',
-  '/index.html',
-  '/styles/main.css',
-  '/resources/noti.jpeg',
-  '/favicon.ico',
-  '/icons/icon-32.png',
-  '/icons/icon-64.png',
-  '/icons/icon-96.png',
-  '/icons/icon-128.png',
-  '/icons/icon-168.png',
-  '/icons/icon-192.png',
-  '/icons/icon-256.png',
-  '/icons/icon-512.png',
-  '/data/data.json'
+  'js/xhr.js',
+  'index.html',
+  'styles/main.css',
+  'resources/noti.jpeg',
+  'favicon.ico',
+  'icons/icon-32.png',
+  'icons/icon-64.png',
+  'icons/icon-96.png',
+  'icons/icon-128.png',
+  'icons/icon-168.png',
+  'icons/icon-192.png',
+  'icons/icon-256.png',
+  'icons/icon-512.png',
+  'data/data.json'
 ];
 
 // Installing Service Worker

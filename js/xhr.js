@@ -31,7 +31,7 @@ window.onload = function () {
 // Registering Service Worker
 if('serviceWorker' in navigator) {
     console.log("Registering Service Worker ");
-	navigator.serviceWorker.register('./sw.js');
+	navigator.serviceWorker.register('../sw.js');
 };
 
 
