@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="./assignment7.webmanifest">
+    <meta name="theme-color" content="white"/>
+    <link href="./styles/main.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="./favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+    <meta name="apple-mobile-web-app-title" content="MyTODO"> 
+    
+    <script type="text/javascript" src="js/xhr.js" defer></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>To Do List Management!</h1>
+        </div>
+    </nav>
+    <div class="main-container">
+        
+        <div>
+            <h3> Todo List: </h3>
+            <ul id="todo-list">
+                <!-- <li>
+                    <input type="checkbox">
+                    <label>test</label>
+                    <button class="view"> View </button>
+                    <button class="delete"> Delete </button>
+                </li>
+                <div id="detail-view-div">
+                    <p> Title: <label></label></p>
+                    <p> Description: <label></label></p>
+                    <p> Date: </p>
+                    <p> Time: </p>
+                    <p> Status: </p>
+                </div> -->
+            </ul>
+        </div>
+
+
+        <div>
+            <h3> Complete List: </h3>
+            <ul id="complete-list">
+                <!-- <li>
+                    <input type="checkbox">
+                    <label>test</label>
+                    <button> View </button>
+                    <button> Delete </button>
+                </li> -->
+            </ul>
+        </div>
+
+        <button class="add-new-button-main" id= "add-new-btn"> + ADD NEW TO-DO </button>
+
+    </div>
+    <div id="add-new" class="addnew-container main-container">
+        <div class="grid-header">
+            <h3> New To-do list: </h3>
+        </div>
+        <div>
+            <form class="form"> 
+                <input class="input" id="title-input" required="true" type="text" placeholder="Title"> <br />
+                <input class="input" id="description-input" required="true" type="text" placeholder="Description"> <br />
+                <input class="input" id="date-input" required="true" type="date"><br />
+                <input class="input" id="time-input" required type="time"><br />
+                <div>
+                    <button id="add-btn" type= "submit">Add</button>
+                    <button id="reset-btn" type = "reset">Reset</button>
+                </div>
+                
+            </form>
+        </div>
+        
+    </div>
+
+   
+</body>
+
+
+
+</html>

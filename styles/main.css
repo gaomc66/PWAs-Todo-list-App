@@ -1,0 +1,134 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif; }
+
+nav {
+  background-color: black;
+  height: 40px;
+  margin-bottom: 10px; }
+  nav div {
+    height: inherit;
+    position: relative; }
+  nav h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.main-container {
+  display: block;
+  width: 400px;
+  border-radius: 20px;
+  border: solid black;
+  margin: auto;
+  padding: 10px 10px 50px 50px; }
+
+.addnew-container {
+  margin-top: 20px; }
+
+h3 {
+  text-transform: uppercase; }
+
+.form {
+  margin: 0px;
+  color: #888; }
+  .form > input {
+    height: 35px;
+    width: 90%;
+    border: 0.2ch solid;
+    border-color: #a19d9d;
+    font-size: 15px;
+    margin-bottom: 15px; }
+  .form > div {
+    text-align: right;
+    width: 90%; }
+    .form > div > button {
+      display: inline-block;
+      margin-top: 0px;
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 0px; }
+      .form > div > button:hover {
+        color: #8fda1f; }
+  .form > fieldset {
+    height: 35px;
+    border: 0ch;
+    width: 100%; }
+
+table {
+  width: 75%;
+  margin-left: 30px;
+  padding-left: 20px;
+  margin-right: 40px;
+  border-left: black dotted 2px; }
+  table > tr {
+    height: 30px; }
+    table > tr td:first-child {
+      width: 40%;
+      font-weight: bold; }
+    table > tr:hover {
+      background-color: black;
+      color: white; }
+
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 20px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  outline: none;
+  padding: 25px; }
+  button:hover {
+    color: #8fda1f; }
+
+.add-new-button-main {
+  width: max-content;
+  font-size: 20px;
+  padding: 0px; }
+  .add-new-button-main:hover {
+    color: #8fda1f; }
+
+ul {
+  padding-left: 0px; }
+  ul button {
+    font-size: 15px; }
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee; }
+  li * {
+    float: left; }
+  li input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px; }
+  li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 180px;
+    padding: 0 0 0 11px; }
+  li > button {
+    height: 40px;
+    margin: inherit;
+    padding: unset; }
+    li > button:hover {
+      color: #8fda1f; }
+
+li, h3 {
+  clear: both;
+  list-style: none; }
+
+/* Completed */
+#complete-list label {
+  text-decoration: line-through;
+  color: #888; }
