@@ -50,7 +50,7 @@ Notification.requestPermission().then(function(result) {
 function sendNotification() {
 	var notifTitle = 'It is the time';
 	var notifBody = 'Do you need to add a to-do list ? ';
-	var notifImg = '/resources/noti.jpeg';
+	var notifImg = './resources/noti.jpeg';
 	var options = {
 		body: notifBody,
 		icon: notifImg
